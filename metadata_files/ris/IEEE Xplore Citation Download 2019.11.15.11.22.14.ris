@@ -1,0 +1,1123 @@
+TY  - JOUR
+TI  - Effective implementation of a mapping swarm of robots
+T2  - IEEE Potentials
+SP  - 28
+EP  - 33
+AU  - C. Churavy
+AU  - M. Baker
+AU  - S. Mehta
+AU  - I. Pradhan
+AU  - N. Scheidegger
+AU  - S. Shanfelt
+AU  - R. Rarick
+AU  - D. Simon
+PY  - 2008
+KW  - control engineering computing
+KW  - multi-robot systems
+KW  - protocols
+KW  - sensors
+KW  - robotic swarm mapping
+KW  - motors
+KW  - mounts
+KW  - wheels
+KW  - chassis material
+KW  - sensors
+KW  - workable communication protocol
+KW  - software
+KW  - Robot sensing systems
+KW  - Robotic assembly
+KW  - Base stations
+KW  - Orbital robotics
+KW  - Batteries
+KW  - Microcontrollers
+KW  - Radio frequency
+KW  - Polyethylene
+KW  - Plastics
+KW  - Gears
+DO  - 10.1109/MPOT.2008.924855
+JO  - IEEE Potentials
+IS  - 4
+SN  - 
+VO  - 27
+VL  - 27
+JA  - IEEE Potentials
+Y1  - July-Aug. 2008
+AB  - There are several driving factors involved in the development of a robotic swarm. On the hardware side, assembly should be adaptable, easily reproduced, and relatively inexpensive. Motors, mounts, wheels, and chassis material must be chosen as well as appropriate sensors. A workable communication protocol must be determined. Software should be concise and common to each robot in the swarm while meeting the requirements of the desired function.
+ER  - 
+
+TY  - CONF
+TI  - Optimal design of a transfemoral prosthesis with energy storage and regeneration
+T2  - 2014 American Control Conference
+SP  - 4108
+EP  - 4113
+AU  - R. Rarick
+AU  - H. Richter
+AU  - A. van den Bogert
+AU  - D. Simon
+AU  - H. Warner
+AU  - T. Barto
+PY  - 2014
+KW  - DC generators
+KW  - DC motors
+KW  - evolutionary computation
+KW  - prosthetics
+KW  - transfemoral prosthesis
+KW  - energy storage
+KW  - energy regeneration
+KW  - preliminary optimal design
+KW  - electromechanical above-knee active prosthesis
+KW  - DC motor-generator
+KW  - direct current motor-generator
+KW  - supercapacitor
+KW  - energy management
+KW  - mechanics
+KW  - sensor-based control
+KW  - biogeography-based optimization
+KW  - evolutionary algorithm
+KW  - Simulink models
+KW  - prosthesis design
+KW  - knee angle tracking
+KW  - positive torque
+KW  - negative torque
+KW  - human movement
+KW  - Optimization algorithms
+KW  - Biologically-inspired methods
+KW  - Modeling and simulation
+DO  - 10.1109/ACC.2014.6859051
+JO  - 2014 American Control Conference
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2014 American Control Conference
+Y1  - 4-6 June 2014
+AB  - We describe the preliminary optimal design of an electromechanical above-knee active prosthesis with energy storage and regeneration. A DC motor-generator applies a positive or negative torque to the knee. The control system regulates the exchange of energy between the motor-generator and a supercapacitor. The central idea of the design is motivated by the mechanics, energy management, and sensor-based control that constitute human movement. We use biogeography-based optimization, which is an evolutionary algorithm, to optimize the system parameters, and we evaluate its performance with Simulink® models. We optimize three alternative prosthesis designs. Simulation results indicate that the prosthesis can be optimized to achieve knee angle tracking with an RMS error on the order of 0.2 degrees.
+ER  - 
+
+TY  - CONF
+TI  - Biogeography-based optimization and the solution of the power flow problem
+T2  - 2009 IEEE International Conference on Systems, Man and Cybernetics
+SP  - 1003
+EP  - 1008
+AU  - R. Rarick
+AU  - D. Simon
+AU  - F. E. Villaseca
+AU  - B. Vyakaranam
+PY  - 2009
+KW  - evolutionary computation
+KW  - load flow
+KW  - Monte Carlo methods
+KW  - biogeography-based optimization
+KW  - evolutionary algorithm
+KW  - power flow problem
+KW  - geographical distribution
+KW  - biological organisms
+KW  - IEEE 30-bus test case system
+KW  - Monte Carlo simulation
+KW  - Load flow
+KW  - Evolutionary computation
+KW  - Genetic algorithms
+KW  - Biogeography
+KW  - Power generation
+KW  - Mathematical model
+KW  - Nonlinear equations
+KW  - Linear matrix inequalities
+KW  - Sparse matrices
+KW  - USA Councils
+KW  - Biogeography-Based Optimization
+KW  - Power Flow Problem
+KW  - Genetic Algorithms
+KW  - Evolutionary Algorithms
+KW  - Power Systems
+DO  - 10.1109/ICSMC.2009.5346046
+JO  - 2009 IEEE International Conference on Systems, Man and Cybernetics
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2009 IEEE International Conference on Systems, Man and Cybernetics
+Y1  - 11-14 Oct. 2009
+AB  - Biogeography-based optimization (BBO) is a novel evolutionary algorithm that is based on the mathematics of biogeography. Biogeography is the study of the geographical distribution of biological organisms. In the BBO model, problem solutions are represented as islands, and the sharing of features between solutions is represented as immigration and emigration between the islands. This paper presents an application of the BBO algorithm to the power flow problem for an IEEE 30-bus test case system. The BBO solution is compared with the solution of the same problem using a genetic algorithm (GA). The results of Monte Carlo simulations indicate that the BBO algorithm consistently performs better than the GA in determining an optimal solution to the power flow problem.
+ER  - 
+
+TY  - CONF
+TI  - Ground reaction force estimation in prosthetic legs with an extended Kalman filter
+T2  - 2016 Annual IEEE Systems Conference (SysCon)
+SP  - 1
+EP  - 6
+AU  - S. A. Fakoorian
+AU  - D. Simon
+AU  - H. Richter
+AU  - V. Azimi
+PY  - 2016
+KW  - Prosthetics
+KW  - Legged locomotion
+KW  - Knee
+KW  - Robot kinematics
+KW  - Estimation
+KW  - Hip
+KW  - ground reaction force (GRF)
+KW  - state estimation
+KW  - prosthetic leg
+KW  - extended Kalman filter (EKF)
+DO  - 10.1109/SYSCON.2016.7490563
+JO  - 2016 Annual IEEE Systems Conference (SysCon)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 Annual IEEE Systems Conference (SysCon)
+Y1  - 18-21 April 2016
+AB  - A method to estimate ground reaction forces (GRFs) in a robot/prosthesis system is presented. The system includes a robot that emulates human hip and thigh motion, along with a powered (active) prosthetic leg for transfemoral amputees, and includes four degrees of freedom (DOF): vertical hip displacement, thigh angle, knee angle, and ankle angle. We design a continuous-time extended Kalman filter (EKF) to estimate not only the states of the robot/prosthesis system, but also the GRFs that act on the prosthetic foot. The simulation results show that the average RMS estimation errors of the thigh, knee, and ankle angles are 0.007, 0.015, and 0.465 rad with the use of four, two, and one measurements respectively. The average GRF estimation errors are 2.914, 7.595, and 20.359 N with the use of four, two, and one measurements respectively. It is shown via simulation that the state estimates remain bounded if the initial estimation errors and the disturbances are sufficiently small.
+ER  - 
+
+TY  - JOUR
+TI  - Markov Models for Biogeography-Based Optimization
+T2  - IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)
+SP  - 299
+EP  - 306
+AU  - D. Simon
+AU  - M. Ergezer
+AU  - D. Du
+AU  - R. Rarick
+PY  - 2011
+KW  - ecology
+KW  - evolutionary computation
+KW  - Markov processes
+KW  - mathematical operators
+KW  - Markov model
+KW  - biogeography based optimization
+KW  - population based evolutionary algorithm
+KW  - geographical distribution
+KW  - biological organism
+KW  - mutation operator
+KW  - probability distribution
+KW  - Genetic mutations
+KW  - Biological system modeling
+KW  - Evolutionary computation
+KW  - Biogeography
+KW  - Mathematics
+KW  - Convergence
+KW  - H infinity control
+KW  - Biological systems
+KW  - Genetic algorithms
+KW  - Simulated annealing
+KW  - Biogeography-based optimization (BBO)
+KW  - evolutionary algorithms (EAs)
+KW  - Markov models
+KW  - Algorithms
+KW  - Biological Evolution
+KW  - Computer Simulation
+KW  - Cybernetics
+KW  - Geography
+KW  - Markov Chains
+KW  - Models, Biological
+DO  - 10.1109/TSMCB.2010.2051149
+JO  - IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)
+IS  - 1
+SN  - 
+VO  - 41
+VL  - 41
+JA  - IEEE Transactions on Systems, Man, and Cybernetics, Part B (Cybernetics)
+Y1  - Feb. 2011
+AB  - Biogeography-based optimization (BBO) is a population-based evolutionary algorithm that is based on the mathematics of biogeography. Biogeography is the science and study of the geographical distribution of biological organisms. In BBO, problem solutions are analogous to islands, and the sharing of features between solutions is analogous to the migration of species. This paper derives Markov models for BBO with selection, migration, and mutation operators. Our models give the theoretically exact limiting probabilities for each possible population distribution for a given problem. We provide simulation results to confirm the Markov models.
+ER  - 
+
+TY  - CONF
+TI  - Evolutionary optimization of user intent recognition for transfemoral amputees
+T2  - 2015 IEEE Biomedical Circuits and Systems Conference (BioCAS)
+SP  - 1
+EP  - 4
+AU  - G. Khademi
+AU  - H. Mohammadi
+AU  - D. Simon
+AU  - E. C. Hardin
+PY  - 2015
+KW  - evolutionary computation
+KW  - feature extraction
+KW  - gait analysis
+KW  - medical signal processing
+KW  - optimisation
+KW  - principal component analysis
+KW  - prosthetics
+KW  - signal classification
+KW  - evolutionary optimization
+KW  - transfemoral amputees
+KW  - lower-limb prosthetic legs
+KW  - walking ability
+KW  - human gait mode
+KW  - mechanical sensor data
+KW  - able-bodied subject
+KW  - user intent recognition
+KW  - feature extraction
+KW  - principal component analysis
+KW  - correlation analysis
+KW  - K-nearest neighbor methods
+KW  - evolutionary algorithm
+KW  - walking modes
+KW  - Legged locomotion
+KW  - Correlation
+KW  - Optimization
+KW  - Principal component analysis
+KW  - Classification algorithms
+KW  - Feature extraction
+KW  - Training
+KW  - user intent recognition
+KW  - lower-limb prosthesis
+KW  - evolutionary algorithm
+KW  - K nearest neighbor
+DO  - 10.1109/BioCAS.2015.7348280
+JO  - 2015 IEEE Biomedical Circuits and Systems Conference (BioCAS)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2015 IEEE Biomedical Circuits and Systems Conference (BioCAS)
+Y1  - 22-24 Oct. 2015
+AB  - Lower-limb prosthetic legs help amputees regain their walking ability. User intent recognition is utilized to infer human gait mode (fast walk, slow walk, etc.) so the controller can be adjusted depending on the detected gait mode. In this paper, mechanical sensor data is collected from an able-bodied subject and used for user intent recognition. Feature extraction, principal component analysis, correlation analysis, and K-nearest neighbor methods are used, modified, and optimized with an evolutionary algorithm for improved performance. The optimized system successfully classifies four different walking modes with an accuracy of 96%.
+ER  - 
+
+TY  - CONF
+TI  - Semiactive virtual control of a hydraulic prosthetic knee
+T2  - 2016 IEEE Conference on Control Applications (CCA)
+SP  - 422
+EP  - 429
+AU  - H. Richter
+AU  - Xin Hui
+AU  - A. van den Bogert
+AU  - D. Simon
+PY  - 2016
+KW  - electromechanical actuators
+KW  - force control
+KW  - hydraulic actuators
+KW  - least mean squares methods
+KW  - medical robotics
+KW  - motion control
+KW  - optimisation
+KW  - position control
+KW  - prosthetics
+KW  - torque control
+KW  - semiactive virtual control
+KW  - hydraulic prosthetic knee
+KW  - hydraulic actuator
+KW  - transfemoral prosthesis
+KW  - knee angle tracking
+KW  - able-bodied walking
+KW  - robotic hip emulator
+KW  - vertical hip displacement
+KW  - thigh angle motion
+KW  - electromechanical actuator
+KW  - direct force control
+KW  - torque control servos
+KW  - hydraulic valve
+KW  - online optimization problem
+KW  - root mean square
+KW  - Prosthetics
+KW  - Knee
+KW  - Valves
+KW  - Legged locomotion
+KW  - Hip
+DO  - 10.1109/CCA.2016.7587867
+JO  - 2016 IEEE Conference on Control Applications (CCA)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 IEEE Conference on Control Applications (CCA)
+Y1  - 19-22 Sept. 2016
+AB  - The paper considers the problem of controlling a novel hydraulic actuator to be used in a transfemoral (above-knee) prosthesis. The control objective is tracking of knee angle reference data corresponding to able-bodied walking. The forces and velocities appearing in a prosthesis when worn by a person are simulated with a two degree-of-freedom robotic hip emulator which allows the prosthesis to walk on a treadmill. The robot produces vertical hip displacement and thigh angle motions using electromechanical actuators with direct force and torque control servos, respectively. Control inputs for the prosthetic knee are the instantaneous positions of two hydraulic valves. The integrated hip robot and prosthesis is controlled using a semiactive virtual control approach. First, a virtual controller is designed for the integrated model, assuming full control authority over the joints. Then, an online optimization problem is solved to find the valve positions that minimize the difference between the actual moment and the moment demanded by the virtual controller. Simulation studies were conducted to evaluate the feasibility of the approach. Knee angle tracking was possible with a root mean square average of 2.2 degrees (approx. 3% of the full range of knee motion), with ground reaction force magnitudes comparable to able-bodied walking data.
+ER  - 
+
+TY  - CONF
+TI  - Switched robust tracking/impedance control for an active transfemoral prosthesis
+T2  - 2016 American Control Conference (ACC)
+SP  - 2187
+EP  - 2192
+AU  - H. Warner
+AU  - D. Simon
+AU  - H. Mohammadi
+AU  - H. Richter
+PY  - 2016
+KW  - evolutionary computation
+KW  - prosthetics
+KW  - robust control
+KW  - switched robust tracking-impedance control
+KW  - active transfemoral prosthesis
+KW  - published controllers
+KW  - gait features
+KW  - energy regeneration
+KW  - evolutionary optimization algorithm
+KW  - ankle joints
+KW  - knee joints
+KW  - Impedance
+KW  - Robustness
+KW  - Switches
+KW  - Prosthetics
+KW  - Knee
+KW  - Hip
+DO  - 10.1109/ACC.2016.7525242
+JO  - 2016 American Control Conference (ACC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 American Control Conference (ACC)
+Y1  - 6-8 July 2016
+AB  - A novel control method for an active transfemoral prosthesis is developed based on the combination of two previously published controllers, robust tracking/impedance control and switched impedance control. This controller is simulated and optimized to provide desired gait features and energy regeneration. Specifically, an evolutionary optimization algorithm termed biogeography-based optimization is used. Across all optimization trials a tracking error on the order of 10-2 rad rms or less results for both the knee and ankle joints. This is accompanied by ground reaction forces approximating able-bodied gait data and an energy regeneration capacity of about 9.6 J per stride.
+ER  - 
+
+TY  - JOUR
+TI  - Extended Kalman filtering for state estimation of a Hill muscle model
+T2  - IET Control Theory & Applications
+SP  - 384
+EP  - 394
+AU  - H. Mohammadi
+AU  - H. Yao
+AU  - G. Khademi
+AU  - T. T. Nguyen
+AU  - D. Simon
+AU  - H. Richter
+PY  - 2018
+KW  - electromyography
+KW  - Kalman filters
+KW  - measurement errors
+KW  - medical signal processing
+KW  - nonlinear filters
+KW  - observers
+KW  - system constraints
+KW  - projection approach
+KW  - dimensionless muscle activation estimation errors
+KW  - standard deviation
+KW  - muscle length measurement noise
+KW  - contractile muscle elements
+KW  - passive muscle elements
+KW  - high gain observer
+KW  - electromyography sensors
+KW  - activation signal estimation
+KW  - joint angles
+KW  - unknown-input estimation
+KW  - single-muscle Hill models
+KW  - two-muscle Hill models
+KW  - EKF
+KW  - state estimation
+KW  - extended Kalman filtering
+DO  - 10.1049/iet-cta.2017.0645
+JO  - IET Control Theory & Applications
+IS  - 3
+SN  - 
+VO  - 12
+VL  - 12
+JA  - IET Control Theory & Applications
+Y1  - 13 2 2018
+AB  - The objectives of this study are five-fold: (i) design an extended Kalman filter (EKF) for the single-muscle and two-muscle Hill models; (ii) design an EKF for unknown-input estimation of the muscle models; (iii) investigate the detectability of the muscle models; (iv) examine the robustness of the EKF to modeling errors; and (v) improve state estimation by incorporating physical constraints into the estimator. Two noisy measurements are available for state estimation: muscle length, which is measured from joint angles; and muscle activation, which is measured from electromyography sensors. Simulation results verify that the EKF is an effective approach for estimation of the activation signals and the states of the system if the system is detectable; the EKF outperforms the high gain observer; and the EKF is robust to modeling errors. The standard deviations of the estimation errors are in the range 0.01-0.1 mm for the muscle lengths, which is one to two orders of magnitude more accurate than the measurements. The standard deviations of the dimensionless muscle activation estimation errors are in the range 0.01-0.02, which is one order of magnitude more accurate than the measurements. A projection approach accounts for constraints to further improve the estimates.
+ER  - 
+
+TY  - CONF
+TI  - Derivative-free Kalman filtering-based control of prosthetic legs
+T2  - 2017 American Control Conference (ACC)
+SP  - 5205
+EP  - 5210
+AU  - S. M. Moosavi
+AU  - S. A. Fakoorian
+AU  - V. Azimi
+AU  - H. Richter
+AU  - D. Simon
+PY  - 2017
+KW  - artificial limbs
+KW  - Kalman filters
+KW  - medical robotics
+KW  - PD control
+KW  - PI control
+KW  - robot dynamics
+KW  - robust control
+KW  - state estimation
+KW  - derivative-free Kalman filtering-based control
+KW  - state estimation-based control
+KW  - thigh motion
+KW  - human hip motion
+KW  - powered transfemoral prosthetic leg
+KW  - robot-prosthesis combination
+KW  - three-degree-of-freedom robot
+KW  - vertical hip displacement
+KW  - thigh angle
+KW  - knee angle
+KW  - n-DOF robotic system
+KW  - robot dynamics
+KW  - PD
+KW  - PI
+KW  - disturbance compensators
+KW  - supervisory control
+KW  - robust DKF
+KW  - three-DOF robot-prosthesis system
+KW  - Kalman filters
+KW  - Legged locomotion
+KW  - Robustness
+KW  - Nonlinear systems
+KW  - Prosthetics
+KW  - Standards
+DO  - 10.23919/ACC.2017.7963763
+JO  - 2017 American Control Conference (ACC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2017 American Control Conference (ACC)
+Y1  - 24-26 May 2017
+AB  - A derivative-free method for state estimation-based control of a robot/prosthesis system is presented. The system is the combination of a test robot that emulates human hip and thigh motion, and a powered transfemoral prosthetic leg. The robot/prosthesis combination is modeled as a three degree-of-freedom (DOF) robot: vertical hip displacement, thigh angle, and knee angle. We develop a derivative-free Kalman filter (DKF) for state estimation-based control for an n-DOF robotic system. We then propose a method to make the DKF robust when the robot dynamics include disturbances. In the robust DKF, we use two different methods for disturbance rejection: PD and PI. These disturbance compensators are used for supervisory control to make the DKF robust in the presence of disturbances. The simulation results show the advantages of the DKF and the robust DKF for the three-DOF robot/prosthesis system for state estimation-based control.
+ER  - 
+
+TY  - CONF
+TI  - State Estimation of a Muscle-Driven Linkage
+T2  - 2018 Annual American Control Conference (ACC)
+SP  - 5025
+EP  - 5030
+AU  - H. Mohammadi
+AU  - D. Simon
+AU  - H. Richter
+PY  - 2018
+KW  - control nonlinearities
+KW  - Kalman filters
+KW  - muscle
+KW  - state estimation
+KW  - state estimation
+KW  - muscle-driven linkage
+KW  - tendon-muscle lengths
+KW  - high-gain observer
+KW  - joint velocities
+KW  - muscle-tendon length rates
+KW  - sliding mode observer
+KW  - two-joint six-muscle linkage
+KW  - extended Kalman filter
+KW  - Muscles
+KW  - Mathematical model
+KW  - Observers
+KW  - Couplings
+KW  - Noise measurement
+KW  - Tuning
+DO  - 10.23919/ACC.2018.8431690
+JO  - 2018 Annual American Control Conference (ACC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2018 Annual American Control Conference (ACC)
+Y1  - 27-29 June 2018
+AB  - This paper addresses the problem of state estimation of a two-joint six-muscle linkage. It is assumed that noisy measurements of the joint angles are available. It is shown that the joint's velocities, tendon-muscle lengths and rates of tendon-muscle lengths can be estimated using a high-gain observer (HGO), sliding mode observer (SMO), and extended Kalman filter (EKF). The estimated states are passed to the controller of the system, which is a backstepping controller. The results verify the effectiveness of the observers for the state estimation of the two-joint six-muscle model. The standard deviations of the estimation errors are very small, on the order of 10-4- 10-2rad for joint angles, 10-3-10-1rad/s for joint velocities, 10-4-10-3m for muscle-tendon length, and 10-5-10-3m/s for muscle-tendon length rates. In general the HGO and EKF performed better than the SMO for this system and is less sensitive to measurement noise.
+ER  - 
+
+TY  - CONF
+TI  - Oppositional biogeography-based optimization
+T2  - 2009 IEEE International Conference on Systems, Man and Cybernetics
+SP  - 1009
+EP  - 1014
+AU  - M. Ergezer
+AU  - D. Simon
+AU  - D. Du
+PY  - 2009
+KW  - evolutionary computation
+KW  - learning (artificial intelligence)
+KW  - mathematical analysis
+KW  - probability
+KW  - oppositional biogeography-based optimization
+KW  - evolutionary algorithm
+KW  - global optimization
+KW  - opposition-based learning
+KW  - oppositional BBO
+KW  - mathematical analysis
+KW  - Evolutionary computation
+KW  - USA Councils
+KW  - Reflection
+KW  - Intersymbol interference
+KW  - Cybernetics
+KW  - Analytical models
+KW  - Mathematical analysis
+KW  - Biogeography
+KW  - Genetic mutations
+KW  - Acceleration
+KW  - Biogeography-based optimization (BBO)
+KW  - evolutionary algorithms
+KW  - opposition-based learning
+KW  - opposite numbers
+KW  - quasi-opposite numbers
+KW  - quasi-reflected numbers
+KW  - probability
+DO  - 10.1109/ICSMC.2009.5346043
+JO  - 2009 IEEE International Conference on Systems, Man and Cybernetics
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2009 IEEE International Conference on Systems, Man and Cybernetics
+Y1  - 11-14 Oct. 2009
+AB  - We propose a novel variation to biogeography-based optimization (BBO), which is an evolutionary algorithm (EA) developed for global optimization. The new algorithm employs opposition-based learning (OBL) alongside BBO's migration rates to create oppositional BBO (OBBO). Additionally, a new opposition method named quasi-reflection is introduced. Quasi-reflection is based on opposite numbers theory and we mathematically prove that it has the highest expected probability of being closer to the problem solution among all OBL methods. The oppositional algorithm is further revised by the addition of dynamic domain scaling and weighted reflection. Simulations have been performed to validate the performance of quasi-opposition as well as a mathematical analysis for a single-dimensional problem. Empirical results demonstrate that with the assistance of quasi-reflection, OBBO significantly outperforms BBO in terms of success rate and the number of fitness function evaluations required to find an optimal solution.
+ER  - 
+
+TY  - CONF
+TI  - Biogeography-based optimization combined with evolutionary strategy and immigration refusal
+T2  - 2009 IEEE International Conference on Systems, Man and Cybernetics
+SP  - 997
+EP  - 1002
+AU  - D. Du
+AU  - D. Simon
+AU  - M. Ergezer
+PY  - 2009
+KW  - evolutionary computation
+KW  - optimisation
+KW  - statistical testing
+KW  - biogeography-based optimization
+KW  - BBO
+KW  - evolutionary strategy
+KW  - ES
+KW  - immigration refusal approach
+KW  - heuristic algorithm
+KW  - F-test value
+KW  - T-test value
+KW  - Heuristic algorithms
+KW  - Genetic mutations
+KW  - Biogeography
+KW  - USA Councils
+KW  - Benchmark testing
+KW  - Cybernetics
+KW  - Statistical analysis
+KW  - Animals
+KW  - Probability
+KW  - Wheels
+KW  - Biogeography-based optimization
+KW  - heuristic algorithm
+KW  - evolutionary strategy
+KW  - immigration refusal
+DO  - 10.1109/ICSMC.2009.5346055
+JO  - 2009 IEEE International Conference on Systems, Man and Cybernetics
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2009 IEEE International Conference on Systems, Man and Cybernetics
+Y1  - 11-14 Oct. 2009
+AB  - Biogeography-based optimization (BBO) is a recently developed heuristic algorithm which has shown impressive performance on many well known benchmarks. In order to improve BBO, this paper incorporates distinctive features from other successful heuristic algorithms into BBO. In this paper, features from evolutionary strategy (ES) are used for BBO modification. Also, a new immigration refusal approach is added to BBO. After the modification of BBO, F-tests and T-tests are used to demonstrate the differences between different implementations of BBOs.
+ER  - 
+
+TY  - CONF
+TI  - Safe navigation in dynamic, unknown, continuous, and cluttered environments
+T2  - 2017 IEEE International Symposium on Safety, Security and Rescue Robotics (SSRR)
+SP  - 238
+EP  - 244
+AU  - M. D'Arcy
+AU  - P. Fazli
+AU  - D. Simon
+PY  - 2017
+KW  - collision avoidance
+KW  - mobile robots
+KW  - path planning
+KW  - safe navigation
+KW  - ProbLP
+KW  - probabilistic local planner
+KW  - autonomous robot
+KW  - reactive planner
+KW  - simulated environments
+KW  - straight-line local planner
+KW  - Robot sensing systems
+KW  - Trajectory
+KW  - Planning
+KW  - Robot kinematics
+KW  - Navigation
+KW  - Safety
+DO  - 10.1109/SSRR.2017.8088169
+JO  - 2017 IEEE International Symposium on Safety, Security and Rescue Robotics (SSRR)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2017 IEEE International Symposium on Safety, Security and Rescue Robotics (SSRR)
+Y1  - 11-13 Oct. 2017
+AB  - We introduce ProbLP, a probabilistic local planner, for safe navigation of an autonomous robot in dynamic, unknown, continuous, and cluttered environments. We combine the proposed reactive planner with an existing global planner and evaluate the hybrid in challenging simulated environments. The experiments show that our method achieves a 77% reduction in collisions over the straight-line local planner we use as a benchmark.
+ER  - 
+
+TY  - CONF
+TI  - Population distributions in biogeography-based optimization algorithms with elitism
+T2  - 2009 IEEE International Conference on Systems, Man and Cybernetics
+SP  - 991
+EP  - 996
+AU  - D. Simon
+AU  - M. Ergezer
+AU  - D. Du
+PY  - 2009
+KW  - biology
+KW  - genetic algorithms
+KW  - Markov processes
+KW  - probability
+KW  - biogeography-based optimization algorithm
+KW  - population distribution
+KW  - evolutionary algorithm
+KW  - geographical organism distribution
+KW  - island
+KW  - Markov analysis
+KW  - probability
+KW  - genetic algorithm
+KW  - Intersymbol interference
+KW  - Biogeography
+KW  - Genetic mutations
+KW  - Evolutionary computation
+KW  - Algorithm design and analysis
+KW  - Performance analysis
+KW  - USA Councils
+KW  - Genetic algorithms
+KW  - Mathematical model
+KW  - Cybernetics
+KW  - biogeography-based optimization
+KW  - evolutionary algorithms
+KW  - probability
+KW  - combinatorics
+KW  - Markov analysis
+DO  - 10.1109/ICSMC.2009.5346058
+JO  - 2009 IEEE International Conference on Systems, Man and Cybernetics
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2009 IEEE International Conference on Systems, Man and Cybernetics
+Y1  - 11-14 Oct. 2009
+AB  - Biogeography-based optimization (BBO) is an evolutionary algorithm that is based on the science of biogeography. Biogeography is the study of the geographical distribution of organisms. In BBO, problem solutions are represented as islands, and the sharing of features between solutions is represented as migration between islands. This paper develops a Markov analysis of BBO, including the option of elitism. Our analysis gives the probability of BBO convergence to each possible population distribution for a given problem. We compare our BBO Markov analysis with a similar genetic algorithm (GA) Markov analysis. Analytical comparisons on three simple problems show that with high mutation rates the performance of GAs and BBO is similar, but with low mutation rates BBO outperforms GAs. Our analysis also shows that elitism is not necessary for all problems, but for some problems it can significantly improve performance.
+ER  - 
+
+TY  - CONF
+TI  - Hybrid function approximation based control with application to prosthetic legs
+T2  - 2016 Annual IEEE Systems Conference (SysCon)
+SP  - 1
+EP  - 6
+AU  - D. Ebeigbe
+AU  - D. Simon
+AU  - H. Richter
+PY  - 2016
+KW  - Prosthetics
+KW  - Robot kinematics
+KW  - Legged locomotion
+KW  - Hip
+KW  - Thigh
+KW  - Knee
+DO  - 10.1109/SYSCON.2016.7490530
+JO  - 2016 Annual IEEE Systems Conference (SysCon)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 Annual IEEE Systems Conference (SysCon)
+Y1  - 18-21 April 2016
+AB  - We develop a hybrid controller for an n-degree of freedom robot where one control approach is used for some joints while another control approach is used for the remaining joints. We combine Slotine and Li's regressor based control, and function approximation technique (FAT) based regressorfree control, to obtain a coupled controller. We verify the closed loop stability of the hybrid controller via Lyapunov functions and update laws to show that the tracking errors approach zero as time approaches infinity. We then apply the controller to an uncertain model of a robotic system comprised of a prosthesis which emulates the angular knee motion of a human leg, and a prosthesis test robot which emulates the vertical hip motion and the angular thigh motion of a human. Simulation results show good reference trajectory tracking in the presence of ground reaction forces while keeping the control signal magnitudes reasonably small. The minimum tracking errors were 1.57% for the hip vertical hip motion, 0.29% for the thigh angle, and 0.34% for the knee angle (relative to their respective ranges of motion). The maximum steady-state control signal magnitudes were 840 N, 456 Nm, and 253 Nm for the hip vertical hip motion, thigh angle, and knee angle respectively.
+ER  - 
+
+TY  - CONF
+TI  - Design optimization and control of a crank-slider actuator for a lower-limb prosthesis with energy regeneration
+T2  - 2016 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)
+SP  - 1430
+EP  - 1435
+AU  - H. Warner
+AU  - D. Simon
+AU  - H. Richter
+PY  - 2016
+KW  - actuators
+KW  - friction
+KW  - mean square error methods
+KW  - optimisation
+KW  - prosthetics
+KW  - RMS error
+KW  - Coulomb friction model
+KW  - knee prosthesis
+KW  - amputee kinetics
+KW  - amputee kinematics
+KW  - energy regeneration
+KW  - lower-limb prosthesis
+KW  - crank-slider actuator
+KW  - design optimization
+KW  - Actuators
+KW  - Knee
+KW  - Friction
+KW  - Mathematical model
+KW  - Fasteners
+KW  - Prosthetics
+KW  - Kinematics
+DO  - 10.1109/AIM.2016.7576971
+JO  - 2016 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 IEEE International Conference on Advanced Intelligent Mechatronics (AIM)
+Y1  - 12-15 July 2016
+AB  - Recently as technology has progressed, interest in powered prostheses has expanded in an attempt to improve kinematics and kinetics for amputees. The current state of this art is described, noting that most powered knee prosthesis designs do not consider the energy regeneration potential of the natural knee. Three actuator models for the knee joint and its control method are designed, optimized, and evaluated using simulation models. The first model excludes mechanical losses. The second includes a Coulomb friction model. A more coarse efficiency model accounting for the mechanical losses is used in the third case. Energy regeneration of 11.94 J per stride resulted for the first model. The second model gave a total of 7.95 J per stride. Lastly, 1.94 J per stride were regenerated in the third model's simulation. In addition, sufficiently accurate gait tracking was realized with a total RMS error on the order of 10-3 rad or less for all models.
+ER  - 
+
+TY  - CONF
+TI  - Multi-objective optimization of decision trees for power system voltage security assessment
+T2  - 2016 Annual IEEE Systems Conference (SysCon)
+SP  - 1
+EP  - 6
+AU  - H. Mohammadi
+AU  - G. Khademi
+AU  - D. Simon
+AU  - M. Dehghani
+PY  - 2016
+KW  - Sociology
+KW  - Optimization
+KW  - Principal component analysis
+KW  - Indexes
+KW  - Security
+KW  - Phasor measurement units
+KW  - Biogeography-Based Optimization
+KW  - Decision Tree
+KW  - Multi-Objective Optimization
+KW  - Invasive Weed Optimization
+KW  - PMU
+KW  - Principal Component Analysis
+KW  - Voltage Security assessment
+DO  - 10.1109/SYSCON.2016.7490524
+JO  - 2016 Annual IEEE Systems Conference (SysCon)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 Annual IEEE Systems Conference (SysCon)
+Y1  - 18-21 April 2016
+AB  - A method is proposed for online power system voltage security assessment (VSA) using decision trees (DTs). The DT inputs are the data gathered from phasor measurement units (PMUs). The dimensions of the training data are reduced in two ways. First, the number of features is decreased by principal component analysis (PCA). Second, the number of training cases is decreased by correlation analysis. Biogeography-based optimization (BBO) and invasive weed optimization (IWO) are combined with four multi-objective (MO) optimization methods to find the optimum dimensions of the PMU data while minimizing the misclassification rate of the security test. The four MO methods include vector evaluation (VE), nondominated sorting (NS), niched Pareto (NP), and strength Pareto (SP). A systematic comparison of MOIWO and MOBBO is conducted using Pareto front hypervolume and relative coverage. The method is applied to a 66-bus power grid in Iran. The results show that the training data size is reduced by about 98%, and the training time is approximately 200 times faster because of the dimension reduction. The misclassification rates of the DTs are in the range of 4–9%. Hypervolume and relative coverage indicate that VEBBO performs better than the other methods.
+ER  - 
+
+TY  - JOUR
+TI  - Robust Regressor-Free Control of Rigid Robots Using Function Approximations
+T2  - IEEE Transactions on Control Systems Technology
+SP  - 1
+EP  - 14
+AU  - D. Ebeigbe
+AU  - T. Nguyen
+AU  - H. Richter
+AU  - D. Simon
+PY  - 2019
+KW  - Robots
+KW  - Fats
+KW  - Control systems
+KW  - Uncertainty
+KW  - Mathematical model
+KW  - Gravity
+KW  - Dynamics
+KW  - Function approximation technique (FAT)
+KW  - Lyapunov stability
+KW  - motion control
+KW  - passivity
+KW  - robust control.
+DO  - 10.1109/TCST.2019.2914634
+JO  - IEEE Transactions on Control Systems Technology
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - IEEE Transactions on Control Systems Technology
+Y1  - 
+AB  - This paper develops a novel regressor-free robust controller for rigid robots whose dynamics can be described using the Euler-Lagrange equations of motion. The function approximation technique (FAT) is used to represent the robot's inertia matrix, the Coriolis matrix, and the gravity vector as finite linear combinations of orthonormal basis functions. The proposed controller establishes a robust FAT control framework that uses a fixed control structure. The control objectives are to track reference trajectories in worst case scenarios where the robot dynamics are too costly to develop or otherwise unavailable. Detailed stability analysis via Lyapunov functions, the passivity property, and continuous switching laws shows uniform ultimate boundedness of the closed-loop dynamics. The simulation results of a three-degree-of-freedom (DOF) robot when the robot parameters are perturbed from their nominal values show good robustness of the proposed controller when compared with some well-established control methods. We also demonstrate success in the real-time experimental implementation of the proposed controller, which validates practicality for real-world robotic applications.
+ER  - 
+
+TY  - JOUR
+TI  - A High-Fidelity Wearable System for Measuring Lower-Limb Kinetics and Kinematics
+T2  - IEEE Sensors Journal
+SP  - 1
+EP  - 1
+AU  - M. Abdelhady
+AU  - A. van den Bogert
+AU  - D. Simon
+PY  - 2019
+KW  - Force
+KW  - Intelligent sensors
+KW  - Kinematics
+KW  - Accelerometers
+KW  - Wireless sensor networks
+KW  - Monitoring
+KW  - Motion capture
+KW  - human gait
+KW  - wearable sensors
+KW  - smart insole
+KW  - embedded system
+DO  - 10.1109/JSEN.2019.2940517
+JO  - IEEE Sensors Journal
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - IEEE Sensors Journal
+Y1  - 
+AB  - There are many important challenges in gait analysis, which has many applications in healthcare, rehabilitation, therapy, and exercise training. However, gait analysis is typically performed in a gait laboratory, which is inaccessible to the general population and is not available in natural gait environments (e.g., outdoors). In this paper, we discuss the development of a high-fidelity, cost-effective, wireless sensor network to address the challenge of efficient gait monitoring in real-world walking scenarios. The sensor network is designed in a modular way to capture plantar forces and knee angle, angular velocity, and angular acceleration. A force module called a smart insole is designed to measure the plantar forces. The module is comprised of force sensitive resistors (FSRs) and a signal conditioning circuit. Various signal conditioning techniques, including a novel technique called transfrequency, are investigated to provide a linear mapping for FSR measurements and to provide data acquisition fidelity. The motion module includes a low-cost inertial measurement unit (IMU) augmented with a Kalman filter to provide filtered knee kinematics. A qualitative evaluation of the sensor network communication module is achieved by considering the internal communication protocols between the modules and the external wireless transmission protocol used to deliver data to an end-point terminal PC. Experiments are conducted to validate the motion and force modules. Then, the overall, integrated system is compared to gold standard laboratory results, demonstrating a successful application for gait identification. The results show that the sensor network accurately captures important gait parameters and features.
+ER  - 
+
+TY  - CONF
+TI  - Differential particle swarm evolution for robot control tuning
+T2  - 2014 American Control Conference
+SP  - 5276
+EP  - 5281
+AU  - Q. Zheng
+AU  - D. Simon
+AU  - H. Richter
+AU  - Z. Gao
+PY  - 2014
+KW  - active disturbance rejection control
+KW  - evolutionary computation
+KW  - mobile robots
+KW  - particle swarm optimisation
+KW  - differential particle swarm evolution
+KW  - robot control tuning
+KW  - DPSE algorithm
+KW  - velocity
+KW  - particle swarm optimization
+KW  - PSO
+KW  - differential mutation
+KW  - function evaluation
+KW  - real-world optimization problem
+KW  - active disturbance rejection control
+KW  - ADRC
+KW  - PUMA-560 robot
+KW  - Joints
+KW  - Vectors
+KW  - Benchmark testing
+KW  - Cost function
+KW  - Robots
+KW  - Standards
+KW  - Evolutionary computing
+KW  - Optimization
+KW  - Control applications
+DO  - 10.1109/ACC.2014.6858721
+JO  - 2014 American Control Conference
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2014 American Control Conference
+Y1  - 4-6 June 2014
+AB  - We present a differential particle swarm evolution (DPSE) algorithm which combines the basic idea of velocity and position update rules from particle swarm optimization (PSO) and the concept of differential mutation from differential evolution (DE) in a new way. With the goal of optimizing within a limited number of function evaluations, the algorithm is tested and compared with the standard PSO and DE methods on 14 benchmark problems to illustrate that DPSE has the potential to achieve a faster convergence and a better solution. Simulation results show that, on the average, DPSE outperforms DE by 39.20% and PSO by 14.92% on the 14 benchmark problems. To show the feasibility of the proposed strategy on a real-world optimization problem, an application of DPSE to optimize the parameters of active disturbance rejection control (ADRC) in PUMA-560 robot is presented.
+ER  - 
+
+TY  - CONF
+TI  - System identification and control optimization of an active prosthetic knee in swing phase
+T2  - 2017 American Control Conference (ACC)
+SP  - 857
+EP  - 862
+AU  - M. Abdelhady
+AU  - A. Rashvand
+AU  - M. Moness
+AU  - H. Richter
+AU  - D. Simon
+PY  - 2017
+KW  - DC motors
+KW  - evolutionary computation
+KW  - Kalman filters
+KW  - particle swarm optimisation
+KW  - prosthetics
+KW  - quadratic programming
+KW  - three-term control
+KW  - velocity control
+KW  - system identification
+KW  - control optimization
+KW  - active prosthetic knee
+KW  - swing phase
+KW  - DC motor
+KW  - Mauch SNS prosthetic knee
+KW  - evolutionary optimization
+KW  - derivative-based optimization
+KW  - system parameters
+KW  - proportional-integral-derivative controller
+KW  - PID
+KW  - knee ankle tracking
+KW  - Kalman filter
+KW  - knee angle velocity
+KW  - measured knee angle
+KW  - integral square error
+KW  - ISE
+KW  - identification problem
+KW  - particle swarm optimization
+KW  - PSO
+KW  - sequential quadratic programming
+KW  - SQP
+KW  - biogeography-based optimization
+KW  - BBO
+KW  - PID controller optimization
+KW  - shank length
+KW  - optimal proportional gain
+KW  - optimal derivative
+KW  - integral gains
+KW  - DC motors
+KW  - Optimization
+KW  - Knee
+KW  - Prosthetics
+KW  - System identification
+KW  - Kalman filters
+KW  - Angular velocity
+DO  - 10.23919/ACC.2017.7963060
+JO  - 2017 American Control Conference (ACC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2017 American Control Conference (ACC)
+Y1  - 24-26 May 2017
+AB  - A DC motor is mounted to a Mauch SNS prosthetic knee to obtain an active prosthetic knee. Evolutionary optimization and derivative-based optimization are used to identify system parameters, and to tune a proportional-integral-derivative (PID) controller for knee ankle tracking during swing phase. A Kalman filter is used to estimate knee angle velocity on the basis of the measured knee angle for feedback to the controller. The performance of the optimization algorithms are evaluated based on integral square error (ISE) between experiment and simulation for the system identification problem, and tracking ISE for the control problem. Results show that for system identification, particle swarm optimization (PSO) gives better results than sequential quadratic programming (SQP) and biogeography-based optimization (BBO). Then PID controller optimization is performed while considering nine different shank lengths. BBO achieves the best average overall ISE, and PSO shows the fastest convergence. Finally, we see that increasing shank length results in an increase in the optimal proportional gain of the controller and a decrease in the optimal derivative and integral gains.
+ER  - 
+
+TY  - CONF
+TI  - Robust composite adaptive transfemoral prosthesis control with non-scalar boundary layer trajectories
+T2  - 2016 American Control Conference (ACC)
+SP  - 3002
+EP  - 3007
+AU  - V. Azimi
+AU  - D. Simon
+AU  - H. Richter
+AU  - S. A. Fakoorian
+PY  - 2016
+KW  - adaptive control
+KW  - biomechanics
+KW  - control system synthesis
+KW  - medical robotics
+KW  - prosthetics
+KW  - robust control
+KW  - uncertain systems
+KW  - robust composite adaptive transfemoral prosthesis control
+KW  - nonscalar boundary layer trajectories
+KW  - robust composite adaptive impedance controller
+KW  - bounded-gain forgetting
+KW  - BGF
+KW  - three degree-of-freedom active prosthetic leg
+KW  - 3-DOF active prosthetic leg
+KW  - transfemoral amputees
+KW  - robust adaptive controller design
+KW  - ground reaction forces
+KW  - GRFs
+KW  - parameter uncertainties
+KW  - control signal chattering
+KW  - tracking performance
+KW  - tracking-error-based adaptation law
+KW  - prediction-error-based adaptation law
+KW  - TEB adaptation law
+KW  - PEB adaptation law
+KW  - parameter adaptation
+KW  - tracking error
+KW  - prediction error
+KW  - uncertain parameter estimation
+KW  - closed-loop system stability
+KW  - prosthesis robot model
+KW  - nonscalar boundary layer trajectory
+KW  - prosthesis controller design
+KW  - biomechanical properties
+KW  - Robustness
+KW  - Legged locomotion
+KW  - Prosthetics
+KW  - Trajectory
+KW  - Adaptation models
+KW  - Impedance
+DO  - 10.1109/ACC.2016.7525376
+JO  - 2016 American Control Conference (ACC)
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - 2016 American Control Conference (ACC)
+Y1  - 6-8 July 2016
+AB  - We propose a robust composite adaptive impedance controller with bounded-gain forgetting (BGF) for a three degree-of-freedom (3-DOF) active prosthetic leg for transfemoral amputees. We design a robust adaptive controller so the error trajectories converge to a boundary layer and the controller shows robustness to ground reaction forces (GRFs) and parameter uncertainties. The boundary layer not only compromises between control signal chattering and tracking performance, but also stops tracking-error-based (TEB) adaptation in the boundary layer to prevent unfavorable parameter drift. We then design a tracking-error-based / prediction-error-based (TEB/PEB) adaptation law, which drives parameter adaptation using both tracking error and prediction error on the joint torques to estimate the uncertain parameters of the system. We prove the stability of the closed-loop system for the prosthesis robot model using a non-scalar boundary layer trajectory. We design the prosthesis controller to imitate the biomechanical properties of able-bodied walking and to provide smooth gait. We finally present simulation results to confirm the effectiveness of the controller for both nominal and perturbed values of the system parameters. When the unknown system parameters deviate by 30% from their nominal values, we achieve more accurate parameter estimation and 6% improvement in tracking performance compared with the robust TEB adaptive controller.
+ER  - 
+
+TY  - JOUR
+TI  - Optimal Mixed Tracking/Impedance Control With Application to Transfemoral Prostheses With Energy Regeneration
+T2  - IEEE Transactions on Biomedical Engineering
+SP  - 894
+EP  - 910
+AU  - G. Khademi
+AU  - H. Mohammadi
+AU  - H. Richter
+AU  - D. Simon
+PY  - 2018
+KW  - actuators
+KW  - artificial limbs
+KW  - control system synthesis
+KW  - force control
+KW  - gait analysis
+KW  - manipulators
+KW  - medical control systems
+KW  - motion control
+KW  - Pareto optimisation
+KW  - position control
+KW  - prosthetics
+KW  - supercapacitors
+KW  - tracking
+KW  - vibration control
+KW  - tracking performance
+KW  - advanced control
+KW  - ultracapacitor-based systems
+KW  - transfemoral prostheses
+KW  - optimal passivity
+KW  - robotic manipulator
+KW  - energy regenerative electronics
+KW  - semiactively controlled joints
+KW  - regenerative actuator
+KW  - energy-storing element
+KW  - external forces
+KW  - energy regeneration characteristics
+KW  - reference trajectories
+KW  - multiobjective optimization
+KW  - optimal impedance parameters
+KW  - trajectory tracking
+KW  - MOO problem
+KW  - transfemoral prosthesis simulation
+KW  - semiactive knee joint
+KW  - relative coverage
+KW  - time-varying impedance
+KW  - constant impedance
+KW  - minimum tracking error
+KW  - tradeoff solution results
+KW  - optimal mixed tracking-impedance control
+KW  - Impedance
+KW  - Manipulators
+KW  - Supercapacitors
+KW  - Prosthetics
+KW  - Knee
+KW  - Optimization
+KW  - Energy regeneration
+KW  - impedance control
+KW  - multi-objective optimization
+KW  - transfemoral prosthesis
+DO  - 10.1109/TBME.2017.2725740
+JO  - IEEE Transactions on Biomedical Engineering
+IS  - 4
+SN  - 
+VO  - 65
+VL  - 65
+JA  - IEEE Transactions on Biomedical Engineering
+Y1  - April 2018
+AB  - Objective: We design an optimal passivity-based tracking/impedance control system for a robotic manipulator with energy regenerative electronics, where the manipulator has both actively and semi-actively controlled joints. The semi-active joints are driven by a regenerative actuator that includes an energy-storing element. Method: External forces can have a large influence on energy regeneration characteristics. Impedance control is used to impose a desired relationship between external forces and deviation from reference trajectories. Multi-objective optimization (MOO) is used to obtain optimal impedance parameters and control gains to compromise between the two conflicting objectives of trajectory tracking and energy regeneration. We solve the MOO problem under two different scenarios: 1) constant impedance; and 2) time-varying impedance. Results: The methods are applied to a transfemoral prosthesis simulation with a semi-active knee joint. Normalized hypervolume and relative coverage are used to compare Pareto fronts, and these two metrics show that time-varying impedance provides better performance than constant impedance. The solution with time-varying impedance with minimum tracking error (0.0008 rad) fails to regenerate energy (loses 9.53 J), while a solution with degradation in tracking (0.0452 rad) regenerates energy (gains 270.3 J). A tradeoff solution results in fair tracking (0.0178 rad) and fair energy regeneration (131.2 J). Conclusion: Our experimental results support the possibility of net energy regeneration at the semi-active knee joint with human-like tracking performance. Significance: The results indicate that advanced control and optimization of ultracapacitor-based systems can significantly reduce power requirements in transfemoral prostheses.
+ER  - 
+
+TY  - JOUR
+TI  - Robust Ground Reaction Force Estimation and Control of Lower-Limb Prostheses: Theory and Simulation
+T2  - IEEE Transactions on Systems, Man, and Cybernetics: Systems
+SP  - 1
+EP  - 12
+AU  - V. Azimi
+AU  - T. T. Nguyen
+AU  - M. Sharifi
+AU  - S. A. Fakoorian
+AU  - D. Simon
+PY  - 2018
+KW  - Prosthetics
+KW  - Legged locomotion
+KW  - Uncertainty
+KW  - Observers
+KW  - Adaptation models
+KW  - Adaptive control
+KW  - estimation
+KW  - prosthetics
+KW  - robust control
+KW  - sliding mode control
+DO  - 10.1109/TSMC.2018.2836913
+JO  - IEEE Transactions on Systems, Man, and Cybernetics: Systems
+IS  - 
+SN  - 
+VO  - 
+VL  - 
+JA  - IEEE Transactions on Systems, Man, and Cybernetics: Systems
+Y1  - 
+AB  - Ground reaction force (GRF) characteristics of amputee walking are important for the analysis of clinical gait data, and also to update model reference adaptive impedance (MRAI) controllers. GRF estimation is a better alternative than direct GRF measurement because of the disadvantages of load cells, such as high cost, integration difficulties due to weight and physical dimensions, the possibility of overload, and measurement noise. This paper presents four robust MRAI observer/controller combinations for GRF estimation-based control of a prosthesis and a legged robot model in the presence of parametric uncertainties and unmodeled dynamics, in which the robot model is employed to mimic able-bodied walking. Since unknown GRFs can reduce the performance of prosthesis control systems, the proposed MRAI controllers are designed to compensate their effects. All four proposed observer/controller combinations enable the system to imitate the biomechanics of able-bodied walking as defined by mechanical impedance, and provide flexible and smooth gait. Lyapunov analysis of the observer/controller combinations is used to prove stability. The four MRAI controllers are compared with each other from the perspective of GRF estimation accuracy, prosthetic knee angle tracking accuracy, parameter estimation accuracy, control effort, and computational effort. Simulation results show that all four MRAI controllers achieve good tracking performance, stable limit cycles, and accurate GRF estimation.
+ER  - 
+
+
