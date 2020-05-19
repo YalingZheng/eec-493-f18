@@ -141,7 +141,9 @@ public class metadataToExcel extends JFrame implements ActionListener {
 					Map = Map + " " + data[i];
 				}
 				if (Key.equals("TY")) {
-					metadataTable.put("Type", TypeMap.get(data[3]));
+					// modified by Alexandra Zheng Harner (05/19/2020)
+					String curtype = TypeMap.get(data[3]);
+					metadataTable.put("Type", curtype);
 				}
 				else if (Key.equals("AU")) {
 					String[] name = Map.split(" ");
@@ -388,7 +390,9 @@ public class metadataToExcel extends JFrame implements ActionListener {
 					Map = Map + " " + data[i];
 				}
 				if (Key.equals("TY")) {
-					metadataTable.put("Type", TypeMap.get(data[3]));
+					// modified by Alexandra Zheng Harner (05/19/2020)
+					String curtype = TypeMap.get(data[3]);
+					metadataTable.put("Type", curtype);
 				}
 				else if (Key.equals("AU")) {
 					String[] name = Map.split(" ");
@@ -1070,6 +1074,11 @@ public class metadataToExcel extends JFrame implements ActionListener {
 						}
 						else if (Key.equals("Type") || Key.equals("type")) {
 							Map = data[3];
+							System.out.println("Type = " + Map);
+							// added by Alexandra Harner, on 05/19/2020
+							if (Map.trim().equals("Proceedings Paper")) {
+								Map = "Conference proceedings"; 
+							}
 							metadataTable.put("Type", Map);
 						}
 						else if (Key.equals("keywords") || Key.equals("Keywords")) {
@@ -1242,6 +1251,10 @@ public class metadataToExcel extends JFrame implements ActionListener {
 						}
 						else if (Key.equals("Type") || Key.equals("type")) {
 							Map = data[3];
+							// added by Alexandra Harner, on 05/19/2020
+							if (Map.trim().equals("Proceedings Paper")) {
+								Map = "Conference proceedings"; 
+							}
 							metadataTable.put("Type", Map);
 						}
 						else if (Key.equals("keywords") || Key.equals("Keywords")) {
