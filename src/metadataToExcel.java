@@ -24,6 +24,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 import java.util.Vector;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.net.HttpURLConnection;
 import java.net.SocketTimeoutException;
 import java.net.URL;
@@ -58,7 +60,7 @@ public class metadataToExcel extends JFrame implements ActionListener {
 
 	metadataToExcel() {
 	}
-
+	
 	/* ### .RIS PARSER ### */
 	public static HashMap<String, String> risParser(String path)  {
 
@@ -103,7 +105,7 @@ public class metadataToExcel extends JFrame implements ActionListener {
 		TypeMap.put("HEAR", "hearing");
 		TypeMap.put("ICOMM", "internet communication");
 		TypeMap.put("INPR", "in press");
-		TypeMap.put("JOUR", "journal");
+		TypeMap.put("JOUR", "article");
 		TypeMap.put("LEGAL", "legal rule or regulation");
 		TypeMap.put("MANSCPT", "manuscript");
 		TypeMap.put("MAP", "map");
@@ -211,6 +213,7 @@ public class metadataToExcel extends JFrame implements ActionListener {
 					metadataTable.put(Key, Map);
 				}
 				else if (Key.equals("JO")) {
+					temp2 = 0;
 					Key = "source publication";
 					metadataTable.put(Key, Map);
 				}
@@ -231,6 +234,7 @@ public class metadataToExcel extends JFrame implements ActionListener {
 					metadataTable.put(Key, Map);
 				}
 				else if (Key.equals("AB")) {
+					temp2 = 0;
 					Key = "Abstract";
 					metadataTable.put(Key, Map);
 				}
@@ -251,6 +255,7 @@ public class metadataToExcel extends JFrame implements ActionListener {
 					metadataTable.put(Key, Map);
 				}
 				else if (Key.equals("DO")) {
+					temp2 = 0;
 					Key = "DOI";
 					metadataTable.put(Key, Map);
 				}
@@ -296,13 +301,14 @@ public class metadataToExcel extends JFrame implements ActionListener {
 
 		BufferedReader br = null; 
 		
-
 		// Used to read the current line in the file
+		// all the keywords are from the .ris file 
 		String line;
 		String Key;
 		String Map = "";
 		int authors = 1;
 		int temp = 0;
+		int temp2 = 0;
 		HashMap<String, String> TypeMap = new HashMap<>();
 		TypeMap.put("ABST", "abstract");
 		TypeMap.put("ADVS", "audiovisual material");
@@ -337,7 +343,7 @@ public class metadataToExcel extends JFrame implements ActionListener {
 		TypeMap.put("HEAR", "hearing");
 		TypeMap.put("ICOMM", "internet communication");
 		TypeMap.put("INPR", "in press");
-		TypeMap.put("JOUR", "journal");
+		TypeMap.put("JOUR", "article");
 		TypeMap.put("LEGAL", "legal rule or regulation");
 		TypeMap.put("MANSCPT", "manuscript");
 		TypeMap.put("MAP", "map");
@@ -369,6 +375,12 @@ public class metadataToExcel extends JFrame implements ActionListener {
 					continue;
 				String[] data = line.split(" ");
 				Key = data[0];
+				// add by A Harner
+				//if (Key.equals("KW")){
+				//	System.out.println("ALL DATA: " + line);
+				//}
+				//System.out.println(data);
+
 				if (data.length > 3) {
 					Map = data[3];
 				}
@@ -448,6 +460,7 @@ public class metadataToExcel extends JFrame implements ActionListener {
 					metadataTable.put(Key, Map);
 				}
 				else if (Key.equals("JO")) {
+					temp2 = 0;
 					Key = "source publication";
 					metadataTable.put(Key, Map);
 				}
@@ -468,6 +481,7 @@ public class metadataToExcel extends JFrame implements ActionListener {
 					metadataTable.put(Key, Map);
 				}
 				else if (Key.equals("AB")) {
+					temp2 = 0;
 					Key = "Abstract";
 					metadataTable.put(Key, Map);
 				}
@@ -488,6 +502,7 @@ public class metadataToExcel extends JFrame implements ActionListener {
 					metadataTable.put(Key, Map);
 				}
 				else if (Key.equals("DO")) {
+					temp2 = 0;
 					Key = "DOI";
 					metadataTable.put(Key, Map);
 				}
@@ -1275,13 +1290,15 @@ public class metadataToExcel extends JFrame implements ActionListener {
 					try {
 						br.close();
 					} catch (IOException e) {
-						System.out.println("risParser IOException when closing file " + e.getMessage());
+						System.out.println("bibParser IOException when closing file " + e.getMessage());
 					}
 				}
 		
 		return metadataTable;
 	}
 
+	public static int temp2 = 0;
+	
 	/* ### Maximum authors in an article (Used for the asme.org parser) ### */
 	public static int maxAuth;
 
@@ -1317,10 +1334,55 @@ public class metadataToExcel extends JFrame implements ActionListener {
 			fetchedMetadata = fetchedMetadata.replace("global.document.metadata=", "");
 			// Removes comma at the end of Json String
 			fetchedMetadata = fetchedMetadata.substring(0, fetchedMetadata.length() - 1);
-
-			// Grab author portion of retrieved HTML code
+			// fetched meta data
+			//System.out.println("fetchedMetadata = ");
+			//System.out.println(fetchedMetadata);
+			
+			// Grab keywords from the website
+			// Written by Alexandra Zheng Harner, 05/19/2020. 
 			JsonParser jsonParser = new JsonParser();
 			JsonObject jo = (JsonObject) jsonParser.parse(fetchedMetadata);
+			
+			// Want to grab the keywords here
+			// Grab author portion of retrieved HTML code
+			JsonArray jsonArr_keywords = jo.getAsJsonArray("keywords");
+			//ArrayList<String> keywords = new ArrayList<>();
+			// Convert JsonArray to ArrayList<String>
+			if (jsonArr_keywords != null) {
+				for (int k = 0; k < jsonArr_keywords.size(); k++) {
+					String curkeyword = (jsonArr_keywords.get(k)).toString();
+					//System.out.println("curkeyword = " + curkeyword);
+					// in the format of
+					// {"type":"IEEE Keywords","kwd":["Muscles","Biological system modeling","Learning (artificial intelligence)","Training","Computational modeling","Biomechanics","Physiology"]}
+					if (curkeyword.contains("Author Keywords")) {
+						// then use this author keywords
+						  Pattern p = Pattern.compile(".*\\[(.*)\\]}");
+					      Matcher m = p.matcher(curkeyword);
+					      //if(m.matches()){
+					       //   System.out.println(m.group(1));
+					      //}
+					      if (m.matches()) {
+						      String authorkeywords = m.group(1).replaceAll("\"", "");
+							  //System.out.println("authorkeywords=" + authorkeywords);
+							  input.put("Keywords", authorkeywords);
+							  break;
+					      }					      
+					}
+					else if (curkeyword.contains("IEEE Keywords")) {
+						  Pattern p = Pattern.compile(".*\\[(.*)\\]}");
+					      Matcher m = p.matcher(curkeyword);
+					      //if(m.matches()){
+					       //   System.out.println(m.group(1));
+					      //}
+					      if (m.matches()) {
+					      String IEEEkeywords = m.group(1).replaceAll("\"", "");
+							  //System.out.println("IEEEkeywords=" + IEEEkeywords);
+							  input.put("Keywords", IEEEkeywords);
+					      }
+					}
+				}
+			}
+			
 			JsonArray jsonArr = jo.getAsJsonArray("authors");
 
 			ArrayList<String> authors = new ArrayList<>();
@@ -1337,6 +1399,17 @@ public class metadataToExcel extends JFrame implements ActionListener {
 					if (authors.get(i).contains("affiliation")) {
 						String[] data = authors.get(i).split("\"affiliation\":\"");
 						String[] data2 = data[1].split("\",\"");
+					    String[] newData = data2[0].split(",");
+					    for(int m = 0; m < newData.length; m++) {
+					    	if(newData[m].contains("University") || newData[m].contains("university") || newData[m].contains("univ") || newData[m].contains("Univ") || newData[m].contains("School") || newData[m].contains("school") || newData[m].contains("institute") || newData[m].contains("Institute")) {
+					    		data2[0] = newData[m];
+					    		break;
+					    	}
+					    	else if(m == newData.length - 1) {
+					    		data2[0] = newData[0];
+					    	}
+					   	}	
+						
 						// data2[0] contains the affiliation for this particular author
 						input.put("author" + j + "_institution", data2[0]);
 						i++;
@@ -1380,7 +1453,8 @@ public class metadataToExcel extends JFrame implements ActionListener {
 						String formattedInstitutions = institutions.get(0);
 						for (int l = 1; l < institutions.size(); l++) {
 							formattedInstitutions += ", " + institutions.get(l);
-						}
+							}
+						
 						input.put("author" + k + "_institution", formattedInstitutions);
 						break;
 					}
@@ -1436,8 +1510,18 @@ public class metadataToExcel extends JFrame implements ActionListener {
 							int indexemail = original_info.indexOf("e-mail:");
 							String correct_info = original_info.substring(0, indexemail);	
 							correct_info = correct_info.replace("ProfessorDepartment", "Professor, Department");
-							input.put("author" + authors + "_institution", correct_info);
-							authors++;
+							String[] newData = correct_info.split(",");
+							for(int m = 0; m < newData.length; m++) {
+								if(newData[m].contains("University") || newData[m].contains("university") || newData[m].contains("univ") || newData[m].contains("Univ") || newData[m].contains("School") || newData[m].contains("school") || newData[m].contains("institute") || newData[m].contains("Institute")) {
+									input.put("author" + authors + "_institution", newData[m]);
+									authors++;
+								}
+								else if(m == newData.length - 1) {
+									input.put("author" + authors + "_institution", newData[0]);
+									authors++; 
+							    }
+							}
+							
 						}
 					} else if (citationInfo.get(i).equals("citation_author_institution")) {
 						i++;
@@ -1632,7 +1716,6 @@ public class metadataToExcel extends JFrame implements ActionListener {
 	}
 	
 	
-
 	
 	public static HashMap<String, String> adjustHashMap(HashMap<String, String> metaTable) {
 		// HTML Source code variables
